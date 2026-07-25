@@ -1,0 +1,7 @@
+services:
+  riyadh-season-site:
+    build: .
+    container_name: riyadh-season-container
+    ports:
+      - "8080:80"
+    restart: unless-stopped
